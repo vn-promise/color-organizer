@@ -1,0 +1,14 @@
+@import "global";
+
+.app {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  &__heading {
+    font-size: 4rem;
+    margin: {
+      bottom: 3rem;
+      top: 2rem;
+    }
+  }
+}

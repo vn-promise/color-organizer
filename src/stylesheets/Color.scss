@@ -1,0 +1,38 @@
+.color {
+  background-color: #fff;
+  border: thin solid #e5e5e5;
+  box-shadow: 0 0 5px rgba(#000, 0.15);
+  overflow: hidden;
+  padding: 2rem 2rem;
+  position: relative;
+  text-align: center;
+
+  &__button {
+    align-items: center;
+    background: red;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.8rem;
+    height: 3rem;
+    justify-content: center;
+    line-height: 1;
+    outline: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 3rem;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+  }
+
+  &__background {
+    height: 10rem;
+    margin: 2rem 0 2rem -2rem;
+    width: calc(100% + 4rem);
+  }
+}

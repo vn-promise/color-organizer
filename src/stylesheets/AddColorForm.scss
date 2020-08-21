@@ -1,0 +1,41 @@
+.form {
+  align-items: center;
+  border-bottom: thin dotted #999;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+
+  &__input {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #999;
+    flex: 1;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+  }
+
+  &__color {
+    cursor: pointer;
+    margin: 0 2rem;
+    padding: 0;
+    align-self: stretch;
+    height: auto;
+  }
+
+  &__button {
+    align-self: stretch;
+    background-color: #ff4081;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.8rem;
+    outline: none;
+    padding: 1rem 2.5rem;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      background-color: darken(#ff4081, 10%);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.star-rating {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 2.5rem);
+  column-gap: 1rem;
+}
+
+.star-text {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
